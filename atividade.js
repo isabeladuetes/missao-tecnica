@@ -173,3 +173,12 @@ console.log("Elementos removidos:", elementosRemovidos);
 
 // Unificando os dois invetários (Alpha e Beta)
 console.log("Os dois inventários juntos:", inventarioAlpha.concat(inventarioBeta));
+
+// Atividade 18
+
+// Colocando os cinco primeiros itens de cada nave em uma nova vitrine
+let inventarioBetaDestaque=  inventarioBeta.slice(0, 5);
+let inventarioAlphaDestaque =  inventarioAlpha.slice(0, 5);
+let inventariosJuntos = inventarioBetaDestaque.concat(inventarioAlphaDestaque);
+
+console.table(inventariosJuntos);
