@@ -185,6 +185,17 @@ console.table(inventariosJuntos);
 
 // Atividade 19
 
-let inventarioBetaEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
+/* let inventarioBetaEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
 
-console.log("O s itens do inventário Beta em letras maiúsculas:", inventarioBetaEmCaps);
+console.log("O s itens do inventário Beta em letras maiúsculas:", inventarioBetaEmCaps); */
+
+// Atividade 26
+
+let primeirosItens = inventarioAlpha.slice(0,16);
+let ultimosItens = inventarioAlpha.slice(17,28);
+let itensInvertidos = primeirosItens.reverse();
+
+// Invertendo a ordem dos 15 primeiros itens da Alpha
+console.log("Os primeiros itens:", primeirosItens);
+console.log("Os  ultimos itens: ", ultimosItens);
+console.log(`${itensInvertidos.concat(ultimosItens)}`);
