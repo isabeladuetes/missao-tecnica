@@ -141,3 +141,8 @@ console.log("Planetas do inventário Alpha separados por string:", inventarioAlp
 
 // Separando os 10 primeiros itens da Beta e colocando vírgulas
 console.log("Os 10 primeiros itens da Beta, separados por vírgulas:", inventarioBeta.slice(0, 10).join(", "));
+
+// Atividade 13
+
+// Separando os 5 primeiros itens da Beta
+console.log("Lista com os 5 primeiros itens da nave Beta para inspeção (índices 0 a 5):", inventarioBeta.slice(0, 5)); 
