@@ -89,12 +89,20 @@ console.table(inventarioBeta);
 
 // Atividade 5
 
-// Adicionando um novo item ao topo
+// Adicionando um novo item ao topo de inventário Alpha
 let itemNoTopo = inventarioAlpha[3];
 inventarioAlpha.unshift(itemNoTopo);
 
-console.table(inventarioAlpha);
-
 // Removendo 1 item a partir do índice 4
 inventarioAlpha.splice(4, 1);
-console.log(inventarioAlpha);
+console.table(inventarioAlpha);
+
+// Atividade 6
+
+// Adicionando um novo item ao topo do inventário Beta
+let itemDestacado = inventarioBeta[4];
+inventarioBeta.unshift(itemDestacado);
+
+// Removendo 1 item a partir do índice 5
+inventarioBeta.splice(5, 1);
+console.table(inventarioBeta);
