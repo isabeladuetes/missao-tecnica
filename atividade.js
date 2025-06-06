@@ -151,3 +151,10 @@ console.log("Lista com os 5 primeiros itens da nave Beta para inspeção (índic
 
 // Separando os 10 últimos itens da Alpha
 console.log("Lista com os 10 últimos itens do inventário Alpha para estudo temporal (índices 15 a 25):", inventarioAlpha.slice(15, 25)); 
+
+// Atividade 15
+
+// Substituindo o elementos 5
+inventarioAlpha[5] = ['Relógio espacial', 'Urano', 21098];
+console.log("Quinto item da Alpha substituído:");
+console.table(inventarioAlpha);
