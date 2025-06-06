@@ -168,3 +168,8 @@ console.log("Dois itens no meio do inventário Beta removidos:");
 console.table(inventarioBeta);
 
 console.log("Elementos removidos:", elementosRemovidos);
+
+// Atividade 17 
+
+// Unificando os dois invetários (Alpha e Beta)
+console.log("Os dois inventários juntos:", inventarioAlpha.concat(inventarioBeta));
