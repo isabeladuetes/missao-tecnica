@@ -114,3 +114,11 @@ let itemRemovido = inventarioAlpha.shift();
 
 console.table(inventarioAlpha);
 console.log("Item do topo removido:", itemRemovido);
+
+// Atividade 8
+
+// Removendo o primeiro item Beta
+let elementoRemovido = inventarioBeta.shift();
+
+console.table(inventarioBeta);
+console.log("Item do topo removido:", elementoRemovido);
