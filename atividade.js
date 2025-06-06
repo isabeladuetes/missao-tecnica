@@ -62,3 +62,11 @@ let inventarioRemovido = inventarioAlpha.pop();
 
 console.log(inventarioAlpha);
 console.log("Item duplicado removido:", inventarioRemovido);
+
+// Atividade 2
+
+// Removendo a último artefato obsoleto do array
+let inventarioBetaRemovido = inventarioBeta.pop();
+
+console.log(inventarioBeta);
+console.log("Item duplicado removido:", inventarioBetaRemovido);
