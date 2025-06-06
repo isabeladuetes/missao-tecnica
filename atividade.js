@@ -73,8 +73,16 @@ console.log("Item duplicado removido:", inventarioBetaRemovido);
 
 // Atividade 3
 
-// Adicionando um novos artefatos
+// Adicionando um novos artefatos no inventário Alpha
 inventarioAlpha.push (["Satelite", "Plutão", 20300],["GPS", "Saturno", 46300],["Telescópio de luz", "Terra", 202500]);
 
-console.log("Novos artefatos adicionados:");
+console.log("Novos artefatos Alphas adicionados:");
 console.table(inventarioAlpha);
+
+// Atividade 4
+
+// Adicionando um novos artefatos no inventário Beta
+inventarioBeta.push (["Buraco negro", "Plutão", 20300],["Câmera", "Vênus", 96300],["Telescópio", "Marte", 202600]);
+
+console.log("Novos artefatos Betas adicionados:");
+console.table(inventarioBeta);
