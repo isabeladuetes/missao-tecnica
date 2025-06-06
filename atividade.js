@@ -61,5 +61,4 @@ let inventarioAlpha = [
 let inventarioRemovido = inventarioAlpha.pop();
 
 console.log(inventarioAlpha);
-
 console.log("Item duplicado removido:", inventarioRemovido);
