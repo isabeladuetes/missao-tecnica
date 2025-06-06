@@ -182,3 +182,9 @@ let inventarioAlphaDestaque =  inventarioAlpha.slice(0, 5);
 let inventariosJuntos = inventarioBetaDestaque.concat(inventarioAlphaDestaque);
 
 console.table(inventariosJuntos);
+
+// Atividade 19
+
+let inventarioBetaEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
+
+console.log("O s itens do inventário Beta em letras maiúsculas:", inventarioBetaEmCaps);
