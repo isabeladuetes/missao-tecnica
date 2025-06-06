@@ -86,3 +86,15 @@ inventarioBeta.push (["Buraco negro", "Plutão", 20300],["Câmera", "Vênus", 96
 
 console.log("Novos artefatos Betas adicionados:");
 console.table(inventarioBeta);
+
+// Atividade 5
+
+// Adicionando um novo item ao topo
+let itemNoTopo = inventarioAlpha[3];
+inventarioAlpha.unshift(itemNoTopo);
+
+console.table(inventarioAlpha);
+
+// Removendo 1 item a partir do índice 4
+inventarioAlpha.splice(4, 1);
+console.log(inventarioAlpha);
