@@ -106,3 +106,11 @@ inventarioBeta.unshift(itemDestacado);
 // Removendo 1 item a partir do índice 5
 inventarioBeta.splice(5, 1);
 console.table(inventarioBeta);
+
+// Atividade 7
+
+// Removendo o primeiro item Alpha
+let itemRemovido = inventarioAlpha.shift();
+
+console.table(inventarioAlpha);
+console.log("Item do topo removido:", itemRemovido);
