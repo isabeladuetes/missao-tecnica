@@ -122,3 +122,8 @@ let elementoRemovido = inventarioBeta.shift();
 
 console.table(inventarioBeta);
 console.log("Item do topo removido:", elementoRemovido);
+
+// Atividade 9
+
+// Verificando se a “Relíquia de Zordon” está presente no inventário Beta
+console.log(`A lista inclui 'Relíquia de Zordon'? ${inventarioBeta.includes("Relíquia de Zordon")}`);
