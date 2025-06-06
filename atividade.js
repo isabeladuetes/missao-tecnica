@@ -132,3 +132,12 @@ console.log(`A lista inclui 'Relíquia de Zordon'? ${inventarioBeta.includes("Re
 
 // Verificando se o item “Nanofibra Luminosa” ainda está disponível na Alpha.
 console.log(`A lista inclui 'Nanofibra Luminosa'? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
+
+// Atividade 11
+
+console.log("Planetas do inventário Alpha separados por string:", inventarioAlpha.join(', ')); 
+
+// Atividade 12
+
+// Separando os 10 primeiros itens da Beta e colocando vírgulas
+console.log("Os 10 primeiros itens da Beta, separados por vírgulas:", inventarioBeta.slice(0, 10).join(", "));
