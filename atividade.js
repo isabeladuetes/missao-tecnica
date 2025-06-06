@@ -55,9 +55,9 @@ let inventarioAlpha = [
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
 
-// 1 
+// Atividade 1 
 
-// Removendo a último item duplicado do array 
+// Removendo a último item duplicado do array
 let inventarioRemovido = inventarioAlpha.pop();
 
 console.log(inventarioAlpha);
