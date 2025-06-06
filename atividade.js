@@ -70,3 +70,11 @@ let inventarioBetaRemovido = inventarioBeta.pop();
 
 console.log(inventarioBeta);
 console.log("Item duplicado removido:", inventarioBetaRemovido);
+
+// Atividade 3
+
+// Adicionando um novos artefatos
+inventarioAlpha.push (["Satelite", "Plutão", 20300],["GPS", "Saturno", 46300],["Telescópio de luz", "Terra", 202500]);
+
+console.log("Novos artefatos adicionados:");
+console.table(inventarioAlpha);
