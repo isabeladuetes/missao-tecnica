@@ -158,3 +158,13 @@ console.log("Lista com os 10 últimos itens do inventário Alpha para estudo tem
 inventarioAlpha[5] = ['Relógio espacial', 'Urano', 21098];
 console.log("Quinto item da Alpha substituído:");
 console.table(inventarioAlpha);
+
+// Atividade 16
+
+// Removendo 2 elementos a partir do índice 2
+let elementosRemovidos = inventarioBeta.splice(2, 2);
+
+console.log("Dois itens no meio do inventário Beta removidos:");
+console.table(inventarioBeta);
+
+console.log("Elementos removidos:", elementosRemovidos);
