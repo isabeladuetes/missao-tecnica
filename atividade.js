@@ -127,3 +127,8 @@ console.log("Item do topo removido:", elementoRemovido);
 
 // Verificando se a “Relíquia de Zordon” está presente no inventário Beta
 console.log(`A lista inclui 'Relíquia de Zordon'? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+
+// Atividade 10
+
+// Verificando se o item “Nanofibra Luminosa” ainda está disponível na Alpha.
+console.log(`A lista inclui 'Nanofibra Luminosa'? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
