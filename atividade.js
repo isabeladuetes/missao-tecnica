@@ -146,3 +146,8 @@ console.log("Os 10 primeiros itens da Beta, separados por vírgulas:", inventari
 
 // Separando os 5 primeiros itens da Beta
 console.log("Lista com os 5 primeiros itens da nave Beta para inspeção (índices 0 a 5):", inventarioBeta.slice(0, 5)); 
+
+// Atividade 14
+
+// Separando os 10 últimos itens da Alpha
+console.log("Lista com os 10 últimos itens do inventário Alpha para estudo temporal (índices 15 a 25):", inventarioAlpha.slice(15, 25)); 
